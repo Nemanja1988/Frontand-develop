@@ -1,0 +1,200 @@
+/* paralax and pictures  */
+
+body, html {
+    height: 100%;
+    font-family: "Lucida Bright";
+
+
+}
+
+/***************** home section ************/
+
+#home,.home-cover {
+
+    background-image: url("paralax/cruser.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+.home-cover, .home-desc h1{
+    color: lightseagreen;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.destination-offer {
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.destination-offer , img{
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 200px;
+
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+.image-box{
+    text-align: center;
+}
+
+.info{
+
+    width: 30%;
+    height: 200px;
+    padding: 10px;
+    border-right: 1px solid silver;
+    float: left;
+    text-align: center;
+
+}
+
+.info p{
+    font-size: 20px;
+    color: aquamarine;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+/************** About section*************** */
+
+#about-cruser{
+    
+    background-image: url("about/people-2562143_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+
+
+#about {
+    background-color: grey;
+}
+
+#destination {
+    background-color: grey;
+}
+#about-cruser h1{
+
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+#about-cruser p{
+
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-top: 50px;
+    color: aquamarine;
+    padding: 50px;
+}
+
+#btn {
+    cursor: pointer;
+    float: left;
+
+
+
+}
+
+#btn:hover{
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+}
+
+.adresse {
+
+    margin: 70px 70px 30px 15px;
+    padding: 50px;
+    float: left;
+    border: 1px solid black;
+    background-color: grey;
+
+}
+
+input {
+    min-height: 20px;
+    height: 30px;
+    border: 1px solid;
+    text-align: center;
+
+}
+
+#btn1 {
+    margin: 50px 100px 0 0;
+    float: left;
+}
+
+.contact {
+    background-color: gray;
+    margin: 70px 70px 0 0;
+    padding: 50px;
+}
+
+
+.copyright {
+    background-color: gray;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+nav ul{
+    display: inline;
+    float: right;
+    color: aquamarine;
+    margin: 20px 0 20px 0;
+    padding: 0 50px 0 10px;
+
+}
+
+nav {
+    margin-bottom: -20px;
+
+
+
+
+}
+
+nav ul:hover{
+    cursor: pointer;
+    color: azure;
+
+}
